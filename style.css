@@ -1,0 +1,131 @@
+
+    *{
+        padding:0%;
+        border:0%;
+        margin: 0%;
+    }
+    /* Estilos del header */
+header{
+    background-image:url(./imagenes/fondo-header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0%;
+    padding: 0%;
+    height: 990px;
+    width: 100%;
+}
+.parrafo-header{
+padding: 300px;
+font-size: 25px;
+color: rgb(83, 81, 81);
+margin-left: 300px;
+}
+.nav-{
+    width: 100%;
+}
+.tituloh1{
+    font-size:50px;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-color: rgb(12, 12, 12);
+    border-style:inset;
+    color: rgba(224, 126, 33, 0.699);
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.div-lista{
+    display: flex;
+    justify-content: center;
+    border-top: 0%;
+    padding-top: 0%;
+    
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+} 
+.item-lista{
+    padding: 10px;
+    
+}
+.link-lista{
+    color: rgb(13, 13, 14);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+        /* seccion 1   */ 
+.section-1{
+    background-color: rgb(253, 254, 255);
+    height: 500px;
+    padding: 40px;
+}
+.img-section1{
+    width: 900px ;
+    height:490px ;
+    float: left;
+    margin-right: 10px;
+}
+article{
+    background-color: rgba(224, 192, 104, 0.281);
+    height: 490px;
+}
+p{
+    font-family:sans-serif;
+    font-size: 20px;
+    padding-top: 120px;
+    height: 490px;
+    text-align: center;
+    vertical-align: middle;
+}
+        /*seccion 2 */
+.section-2{
+    background-color: rgb(253, 254, 255);
+    height: 500px;
+    padding: 40px;
+}
+.img-section2{
+    width: 900px;
+    height:490px ;
+    float: right;
+    margin-left: 10px;
+}
+/* footer-1*/
+.footer-1{
+    background-color: rgba(128, 125, 125, 0.788);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.lista-footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.item-lista-footer{
+    margin: 0 10px;
+}
+/* img footer*/
+.img-footer{
+    width: 60px;
+    display: inline-block;
+    
+    background-color: #66666600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 22px;
+}
+.img-footer:hover{ 
+    background-color: #3c3d3d;
+}  
